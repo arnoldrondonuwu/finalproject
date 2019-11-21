@@ -5,7 +5,7 @@ const ImageDetailMakanan = ({imageSource, title, rating}) => {
     return(
         <View>
             <Image 
-                style={{width: 100, height: 90}}
+                style={{width: 220, height: 170}}
                 source={imageSource}
             />
             <Text>{title}</Text>

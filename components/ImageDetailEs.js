@@ -5,7 +5,7 @@ const ImageDetailMinuman = ({imageSource, title, rating}) => {
     return(
         <View>
             <Image 
-                style={{width: 100, height: 93}}
+                style={{width: 225, height: 200}}
                 source={imageSource}
             />
             <Text>{title}</Text>

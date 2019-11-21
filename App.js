@@ -7,19 +7,21 @@ import ImageScreenMakanan from './screens/ImageScreenMakanan';
 import ImageScreenMinuman from './screens/ImageScreenMinuman';
 import ImageScreenEs from './screens/ImageScreenEs';
 
+
 const navigator = createStackNavigator({
   Home: HomeScreenMakanan,
   ImageMakanan: ImageScreenMakanan,
   ImageMinuman: ImageScreenMinuman,
   ImageEs: ImageScreenEs
-  
-},{
-  
+},{  
   initialRouteName: 'Home',
   defaultNavigationOptions: {
-    headerTitle: '  Rumah Makan Unklab',
+    headerTitle: 'Rumah Makan Unklab',
+    alignItems: 'center',
+    justifyContent: 'center',
+
     headerStyle: {
-     backgroundColor: 'grey'
+    backgroundColor : 'black'
     }
   }
 });
@@ -29,7 +31,7 @@ export default createAppContainer(navigator);
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FF5733',
+    backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'center',
   },
