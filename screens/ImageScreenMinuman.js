@@ -10,7 +10,7 @@ const ImageScreenMinuman = () => {
            <ScrollView>
            <View style = {styles.container}>
                    <View style={styles.tengah}>
-                   <Text style={styles.text}>"NutriSari Biasa/Dingin Rp 5.000"</Text>
+                   <Text style={styles.text}>NutriSari Biasa/Dingin Rp 5.000</Text>
                    <ImageDetailMinuman
                    imageSource={require('../assets/nutrisari.jpg')}
                    />

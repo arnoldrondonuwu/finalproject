@@ -10,7 +10,7 @@ const ImageScreenEs = ({}) => {
          <ScrollView>
          <View style = {styles.container}>
                  <View style={styles.tengah}>
-                 <Text style={styles.text}>"Es Campur Rp 20.000</Text>
+                 <Text style={styles.text}>Es Campur Rp 20.000</Text>
                  <ImageDetailEs
                  imageSource={require('../assets/escampur.jpeg')}
                  />
