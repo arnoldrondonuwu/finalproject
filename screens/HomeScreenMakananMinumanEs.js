@@ -34,6 +34,14 @@ const HomeScreenMakanan = ({navigation}) => {
                   />
                </View>
 
+               <View style={styles.tengah}>
+                  <Button style={styles.Button}
+                  text color = 'black'
+                  title="Tentang Rumah Makan "
+                  onPress={()=> navigation.navigate('ImageAbout')}
+                  />
+               </View>
+
             </View>
          </ImageBackground>  
      </View>
